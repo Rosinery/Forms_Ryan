@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="money.jpg" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>Acesso</h1>
+    </header>
+    <form>
+        <fieldset>
+            <legend>Insira seus dados</legend>
+    <label for="email" >logar</label>
+    <input type="text" id="email" name="email" placeholder="Insira seu email" required>
+    <label for="senha">Insira sua senha</label>
+    <input type="password" id="senha" name="senha" placeholder="Insira sua senha" required>
+    <button type="button" onclick="login()">Login</button>
+    <p class="registro" >Ainda não tem conta? <a href="cadastro.html" >Cadastre-se</a></p>
+    </form>
+        </fieldset>
+        <script src="login.js"></script>
+</body>
+</html>

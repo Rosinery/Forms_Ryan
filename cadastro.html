@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="money.jpg" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>Cadastro</h1>
+    </header>
+    <form id="cadastroForm">
+        <fieldset>
+            <legend>Insira seus dados</legend>
+    <label for="nome" >Seu nome: </label>
+    <input type="text" id="nome" name="nome" placeholder="Insira seu nome" required>
+    <label for="email" >email</label>
+    <input type="text" id="email" name="email" placeholder="Insira seu email" required>
+    <label for="senhaCad">Insira sua senha</label>
+    <input type="password" id="senhaCad" name="senhaCad" placeholder="Insira sua senha" required>
+    <button type="button" onclick="cadastrar()">cadastrar</button>
+    <p class="registro" >Já tem conta? <a href="index.html" >Login</a></p>
+    </form>
+        </fieldset>
+        <script src="cadastro.js"></script>
+</body>
+</html>
